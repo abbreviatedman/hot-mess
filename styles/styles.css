@@ -4,248 +4,248 @@
 */
 
 body {
-  margin: 0;
-  font-family: "Comic Neue", cursive;
-  font-size: 2em;
-  color: darkslategray;
+    margin: 0;
+    font-family: "Comic Neue", cursive;
+    font-size: 2em;
+    color: darkslategray;
 }
 
 nav {
-  background-color: #054d80;
-  margin: 0;
-  height: 80px;
-  display: flex;
-  align-items: center;
+    background-color: #FFA500;
+    margin: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 nav ul {
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 2em;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2em;
 }
 
 nav ul li {
-  margin-right: 4em;
-  list-style: none;
-  text-transform: uppercase;
-  color: whitesmoke;
-  font-weight: bolder;
+    margin-right: 4em;
+    list-style: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bolder;
 }
 nav img {
-  width: 50px;
-  margin-left: 2em;
-  border-radius: 100%;
+    width: 50px;
+    margin-left: 2em;
+    border-radius: 100%;
 }
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 .section {
-  margin-top: 0px;
-  padding: 3em;
+    margin-top: 0px;
+    padding: 3em;
 }
 
 .headers-section {
-  text-align: center;
+    text-align: center;
 }
 
 .hero-section,
 .parent-child-section {
-  background-image: linear-gradient(to bottom right, aliceblue, #01ffff);
+    background-image: linear-gradient(to bottom right, #FF00FF, #00FFFF);
 }
 
 .about-section {
-  background-image: linear-gradient(to bottom right, aliceblue, lightpink);
+    background-image: linear-gradient(to bottom right, #FF00FF, #00FFFF);
 }
 
 .hero-wrapper {
-  width: 60%;
-  margin: 0 auto;
-  display: flex;
-  padding: 5em;
-  justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    padding: 5em;
+    justify-content: space-between;
 }
 
 .hero-header {
-  padding-top: 2em;
-  margin-top: 0px;
+    padding-top: 2em;
+    margin-top: 0px;
 }
 
 .text-wrapper {
-  width: 50%;
+    width: 50%;
 }
 
 .form-wrapper {
-  padding: 2em;
-  background-color: white;
-  border-radius: 10px;
+    padding: 2em;
+    background-color: white;
+    border-radius: 10px;
 }
 
 button {
-  border: none;
-  padding: 1em 2em;
-  border-radius: 5px;
-  background-color: white;
-  text-transform: uppercase;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 5px;
+    background-color: white;
+    text-transform: uppercase;
 }
 
 .about-img-wrapper img {
-  width: 75%;
-  border-radius: 5px;
+    width: 75%;
+    border-radius: 5px;
 }
 
 .about-img-wrapper {
-  width: 50%;
+    width: 50%;
 }
 
 .about-wrapper {
-  display: flex;
-  padding: 8em 4em;
-  width: 80%;
-  margin: 0 auto;
+    display: flex;
+    padding: 8em 4em;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .gallery-section img {
-  width: 300px;
-  border-radius: 5px;
-  max-height: 200px;
-  margin: 0.5rem;
+    width: 3000px;
+    border-radius: 50px;
+    max-height: 200px;
+    margin: 0.5rem;
 }
 
 .images-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 2em 4em;
-  width: 80%;
-  margin: 1.5em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em 4em;
+    width: 30%;
+    margin: 1.5em auto;
 }
 
 .gallery-text-wrapper {
-  text-align: center;
-  margin-top: 5em;
+    text-align: center;
+    margin-top: 5em;
 }
 
 .section-header {
-  font-size: 2em;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 1em;
-  margin-top: 0px;
-  font-weight: bolder;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1em;
+    margin-top: 0px;
+    font-weight: bolder;
 }
 
 .awards-section {
-  background-image: linear-gradient(to bottom right, aliceblue, lightpink);
-  height: 800px;
+    background-image: linear-gradient(to bottom right, #FF00FF, #00FFFF);
+    height: 800px;
 }
 
 .awards-section-text {
-  text-align: center;
+    text-align: center;
 }
 
 .flex-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
-  padding: 2em 4em;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 4em;
 }
 
 .awards-section div {
-  width: 80%;
+    width: 80%;
 }
 
 .right-content-box img {
-  width: 400px;
-  z-index: 100;
-  position: relative;
-  top: 150px;
-  right: 75px;
-  border-radius: 10px;
+    width: 400px;
+    z-index: 100;
+    position: relative;
+    top: 150px;
+    right: 75px;
+    border-radius: 10px;
 }
 
 .left-content-box {
-  background-color: #e9f8ff;
-  font-size: 1em;
-  padding: 2em;
-  border-radius: 10px;
-  position: relative;
-  left: 100px;
+    background-color: #800080;
+    font-size: 1em;
+    padding: 2em;
+    border-radius: 10px;
+    position: relative;
+    left: 100px;
 }
 
 .left-content-box li {
-  margin-top: 1em;
+    margin-top: 1em;
 
 }
 
 .left-content-box p {
-  font-size: 1.5em;
-  margin-top: 0px;
+    font-size: 1.5em;
+    margin-top: 0px;
 }
 
 .right-content-box a {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* STEPS SECTION */
 .parent-child-section {
-  text-align: center;
-  padding: 10em 5em;
+    text-align: center;
+    padding: 10em 5em;
 }
 .steps-card {
-  width: 150px;
-  text-align: center;
-  background-color: #f1f1f8;
-  padding: 2em;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    width: 150px;
+    text-align: center;
+    background-color: #FF00FF
+    padding: 2em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .steps-card h1 {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .steps-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: 5em auto;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5em auto;
+    flex-wrap: wrap;
 }
 
 /* CERTIFICATION PROCESS */
 .certification-process-wrapper {
-  width: 30%;
-  margin: 10em auto;
-  background-color: #aec7fe;
-  padding: 5em;
-  opacity: 0.8;
-  border-radius: 10px;
+    width: 30%;
+    margin: 10em auto;
+    background-color: #FF00FF;
+    padding: 5em;
+    opacity: 0.8;
+    border-radius: 10px;
 }
 
 .certification-process-wrapper li {
-  font-size: 1.2em;
-  margin-top: 1em;
+    font-size: 1.2em;
+    margin-top: 1em;
 }
 .certification-process-wrapper ol {
-  font-size: 1.2em;
-  margin-top: 2em;
+    font-size: 1.2em;
+    margin-top: 2em;
 }
 
 /* FOOTER */
 .footer-section {
-  background-color: #f1f1f8;
-  padding: 2em;
+    background-color: #00FFFF;
+    padding: 2em;
 }
 
 .buttons-wrapper {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
