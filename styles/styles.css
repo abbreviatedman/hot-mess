@@ -7,7 +7,36 @@ body {
     margin: 0;
     font-family: "Comic Neue", cursive;
     font-size: 2em;
-    color: darkslategray;
+    color: #800080;
+}
+
+a {
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
+}
+
+h1 {
+    font-size: 0.5em;
+}
+
+h2 {
+    font-size: 0.8em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 2em;
+}
+
+h6 {
+    font-size: 2.5em;
 }
 
 nav {
@@ -38,9 +67,10 @@ nav img {
     margin-left: 2em;
     border-radius: 100%;
 }
+
 a {
     color: inherit;
-    text-decoration: none;
+    text-decoration: line;
 }
 
 .section {
@@ -130,7 +160,7 @@ button {
 }
 
 .section-header {
-    font-size: 2em;
+    font-size: 0.5em;
     text-transform: uppercase;
     text-align: center;
     padding-top: 1em;
@@ -183,7 +213,7 @@ button {
 }
 
 .left-content-box p {
-    font-size: 1.5em;
+    font-size: 0.5em;
     margin-top: 0px;
 }
 
@@ -208,7 +238,7 @@ button {
 }
 
 .steps-card h1 {
-    font-size: 1.5em;
+    font-size: 0.5em;
 }
 
 .steps-wrapper {
@@ -230,11 +260,11 @@ button {
 }
 
 .certification-process-wrapper li {
-    font-size: 1.2em;
+    font-size: 0.8em;
     margin-top: 1em;
 }
 .certification-process-wrapper ol {
-    font-size: 1.2em;
+    font-size: 0.8em;
     margin-top: 2em;
 }
 
