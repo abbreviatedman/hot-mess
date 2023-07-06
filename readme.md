@@ -33,18 +33,18 @@ But there must be rules, and here they are.
 
 Why these rules? Because they encourage you to play with CSS, which is the goal here, rather than adding amusingly bad text, or ugly images, or uncomfortable gifs.
 
-Things you _may not_ do:
+##### Things You _May Not_ Do
 
-1. You _may not_ **remove or add HTML elements** from `index.html`.
+1. You _may not_ **remove or add HTML elements** from `index.html` (except for adding external code in the `head` tag, such as web fonts or other CSS files).
 2. You _may not_ **change the text inside HTML elements** in `index.html`.
 3. You _may not_ **add images, sound, or video** to `index.html` _or_ `style.css`.
-5. You _may not_ **delete CSS rules** in the `style.css` file.
+4. You _may not_ **delete CSS rules** in the `style.css` file.
 
-Things you _may_ do:
+##### Things You _May_ Do:
 
-3. You _may_ **change or add attributes of HTML elements** in `index.html`, either to make the page look worse directly, or to give you a `class` or `id` or any other attribute that allows you to write CSS to make the page look worse.
-4. You _may_ **change the values for CSS properties** in the `style.css` file.
-6. You _may_ **add new CSS rules** in the `style.css` file.
+1. You _may_ **change or add attributes of HTML elements** in `index.html`, either to make the page look worse directly, or to give you a `class` or `id` or any other attribute that allows you to write CSS to make the page look worse.
+2. You _may_ **change the values for CSS properties** in the `style.css` file.
+3. You _may_ **add new CSS rules** in the `style.css` file.
 
 ### May The Worst Be With You
 
