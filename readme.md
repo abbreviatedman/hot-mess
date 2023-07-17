@@ -46,6 +46,10 @@ Why these rules? Because they encourage you to play with CSS, which is the goal 
 2. You _may_ **change the values for CSS properties** in the `style.css` file.
 3. You _may_ **add new CSS rules** in the `style.css` file.
 
+### Submitting The Assignment
+
+Please see [our guide to GitHub Pull Requests](https://github.com/AnnieCannons/intro-to-programming-curriculum/blob/main/git/resources/github-pull-request-guide.md) to see how to submit the assignment.
+
 ### May The Worst Be With You
 
-Have fun!
+And above all: have fun!
